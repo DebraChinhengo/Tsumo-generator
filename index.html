@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
 
   <body>
@@ -26,7 +27,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="tsumoGeneratorForm">
           <input
             type="text"
             placeholder="Enter topic of the tsumo-African-proverb."
@@ -38,9 +39,7 @@
           <input type="submit" value="Submit" class="submitButton" />
         </form>
         <br />
-        <div class="tsumo">
-          Tsumo-African Proverb will go here
-
+        <div class="tsumo" id="tsumo">
           <br />
         </div>
       </main>
