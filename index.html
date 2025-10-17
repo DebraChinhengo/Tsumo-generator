@@ -5,47 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tsumo</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-      <h1>Tsumo Nemadimikira!</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Tsumo Nemadimikira - African Proverb Generator!</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic of the tsumo-African-proverb"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Generate Tsumo" />
-      </form>
-      <br />
-      <div>
-        Tsumo-African Proverb will go here
-
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic of the tsumo-African-proverb."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" value="Submit" class="submitButton" />
+        </form>
         <br />
-      </div>
-    </main>
+        <div class="tsumo">
+          Tsumo-African Proverb will go here
 
-    <br />
+          <br />
+        </div>
+      </main>
 
-    <footer>
-      Coded by Debra Chinhengo and is open sourced on
-      <a
-        href="https://github.com/DebraChinhengo/Tsumo-generator.git"
-        target="_blank"
-      >
-        GitHub Repository
-      </a>
-      and is hosted on
-      <a href="https://tsumo-african-proverbs.netlify.app" target="_blank">
-        Netlify</a
-      >.
-    </footer>
+      <br />
+
+      <footer>
+        Coded by Debra Chinhengo and is open sourced on
+        <a
+          href="https://github.com/DebraChinhengo/Tsumo-generator.git"
+          target="_blank"
+        >
+          GitHub Repository
+        </a>
+        and is hosted on
+        <a href="https://tsumo-african-proverbs.netlify.app" target="_blank">
+          Netlify</a
+        >.
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>

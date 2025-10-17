@@ -1,3 +1,89 @@
 body {
-  background: rgb(227, 241, 236);
+  background-color: rgb(249, 248, 249);
+}
+
+h1 {
+  color: rgb(56, 29, 29);
+
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+.instructions {
+  flex: 1;
+  min-width: 0; /* ensures it doesn't overflow the form */
+  height: 30px; /* makes it tall enough for the placeholder */
+  font-size: 14px; /* makes placeholder text more readable */
+  padding: 10px 5px;
+  background-color: rgb(224, 247, 228);
+  border: 1px solid green;
+  border-radius: 30px;
+  box-sizing: border-box;
+
+}
+
+
+button {
+  background-color: rgb(56, 29, 29);
+  color: white;
+  padding: 30px 40px;
+ 
+  cursor:hover; pointer;
+  font-size: 16px;
+}
+
+.container {
+  font-family: "Roboto Flex", sans-serif;
+  max-width: 800px;
+  margin: 120px auto;
+  padding: 20px;
+  background-color: rgb(226, 237, 229);
+  border-radius: 30px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+form {
+  display: flex;
+  gap: 20px;
+  padding: 25px;
+  background-color:  rgb(156, 216, 172);
+  border-radius: 40px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.submitButton {
+  padding: 10px 5px;
+  height: 50px;
+  width: 70px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+    box-sizing: border-box;
+    background-color: rgb(76, 144, 85);
+}
+
+.tsumo {
+     font-family: "Roboto Flex", sans-serif;
+     font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: italic;
+      font-color: rgb(56, 29, 29);
+    font-size: 16px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: rgb(56, 29, 29);
 }
