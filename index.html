@@ -18,6 +18,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
 
   <body>
@@ -35,16 +36,16 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" value="Submit" class="submitButton" />
         </form>
-        <br />
-        <div class="tsumo" id="tsumo">
-          <br />
+
+        <div class="tsumo" id="tsumo"></div>
+        <div id="loading" style="display: none">
+          ⏳ Generating your tsumo...
         </div>
       </main>
-
-      <br />
 
       <footer>
         Coded by Debra Chinhengo and is open sourced on
